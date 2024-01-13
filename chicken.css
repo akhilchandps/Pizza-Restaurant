@@ -1,0 +1,191 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&family=Nothing+You+Could+Do&family=Poppins:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cookie&family=Kaushan+Script&family=Lobster&display=swap');
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    color:white ;
+}
+body
+{
+    background-image: url(./images/blackbody.jpg);
+    width: 100%;
+    height:100%;
+}
+.page2
+{
+    width: 100%;
+    height: 510px;
+    display: flex;
+    justify-content: space-around;
+    left: 10%;
+   margin-top: 80px;
+  background-image: url(https://media.istockphoto.com/id/1167453159/vector/horizontal-vector-illustration-of-an-empty-brown-or-chocolate-colored-textured-background.jpg?s=612x612&w=0&k=20&c=HhbGN_wHaTuss5lsiTX9fcn4TAa1wQOH4aZGzYNebjg=);
+ background-repeat: no-repeat;
+ background-size: cover;
+ box-shadow: 3px 3px 4px black;
+}
+.page2 h1{
+
+    font-size: 26px;
+    position: relative;
+    left: 2px;
+    margin-top: 10px;
+}
+.page2 .col8
+{
+    margin: 50px;
+    text-align: center;
+}
+
+.col8{
+
+    background-color:none;
+    width: 500px;
+    height: 400px;
+
+}
+.col8 ul
+{
+    list-style: none;
+}
+.col8 ul li p
+{
+    font-size: 15px;
+    
+}
+.col8 ul a{
+    color: white;
+    text-decoration: none;
+}
+.col8 ul #bt
+{
+    font-family: Noto Sans;
+}
+.col8 button:hover{
+
+background-color: rgb(177, 46, 46);
+color: white;
+}
+
+.col8  img
+{
+    transition: 0.5s;
+    border-radius: 20px;
+}
+.col8 img:hover
+{
+    transform: scale(0.9);
+    box-shadow: 3px 3px 4px black;
+}
+.col8 button
+{
+    padding: 15px;
+    font-weight: 6;
+}
+footer
+{
+    margin-top: 150px;
+}
+
+
+@media only screen and (min-width:400px)and (max-width:1024px) 
+{
+
+    body{
+      
+        background-image: url(./images/Redbody.jpg);
+        width: 100%;
+        height: 100%;
+        background-repeat: no-repeat;
+        background-size: cover;
+       
+    }
+    .page2
+    {
+        width: 100%;
+        height: 510px;
+        /* position: absolute;
+        top: 20%; */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        justify-content: space-around;
+       margin-top: 50px;
+       background-image:none;
+     background-size: cover;
+     box-shadow:none;
+     margin-bottom:800px;
+     padding-right: 30px;
+   
+
+     margin-top: 500px;
+    }
+    .page2 img{
+
+        width: 200px;
+        height: 200px;
+    }
+    .page2 h1{
+    
+        font-size:18px;
+        position: relative;
+        left: 2px;
+        margin-top: 10px;
+    }
+    .page2 .col8
+    {
+        margin: 50px;
+        text-align: center;
+        
+    }
+
+    .page2 .col8 ul button a
+    {
+        font-weight: 600;
+    }
+    .col8{
+
+        background-color:none;
+        width: 300px;
+        height: 400px;
+
+
+    
+    }
+    .col8 button:hover{
+    
+    background-color: rgb(177, 46, 46);
+    color: white;
+    }
+    
+    .col8  img
+    {
+        transition: 0.5s;
+        border-radius: 20px;
+    }
+    
+    .col8 img:hover
+    {
+        transform: scale(0.9);
+        box-shadow: 3px 3px 4px black;
+    }
+    .col8 button
+    {
+        padding: 10px;
+    }
+
+    footer
+    {
+        margin-top: -300px;
+    }
+
+}
+
+
+

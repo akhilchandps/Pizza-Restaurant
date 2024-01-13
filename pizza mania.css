@@ -1,0 +1,194 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&family=Nothing+You+Could+Do&family=Poppins:wght@200&display=swap');
+
+  @import url('https://fonts.googleapis.com/css2?family=Cookie&family=Kaushan+Script&family=Lobster&display=swap');
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    color:white ;
+}
+body
+{
+    background-image: url(./images/blackbody.jpg);
+    width: 100%;
+    height:100%;
+}
+
+
+.page2
+{
+    width: 100%;
+    height: 510px;
+    display: flex;
+    justify-content: space-around;
+    left: 10%;
+   margin-top: 80px;
+  background-image: url(https://cdn.pixabay.com/photo/2015/11/06/13/17/texture-1027714_640.jpg);
+ background-repeat: no-repeat;
+ background-size: cover;
+ box-shadow: 3px 3px 4px black;
+}
+.page2 h1{
+
+    font-size: 26px;
+    position: relative;
+    left: 2px;
+    margin-top: 10px;
+}
+.page2 .col8
+{
+    margin: 50px;
+    text-align: center;
+    
+}
+#do
+{
+   padding-right: 20px;
+   margin-left: 20px;
+}
+.col8{
+
+    background-color:none;
+    width: 500px;
+    height: 400px;
+
+}
+.col8 ul
+{
+    list-style: none;
+}
+.col8 ul li p
+{
+    font-size: 15px;
+    
+}
+
+.col8 button:hover{
+
+background-color: rgb(56, 56, 56);
+color: white;
+}
+
+.col8  img
+{
+    transition: 0.5s;
+    border-radius: 20px;
+}
+.col8 img:hover
+{
+    transform: scale(0.9);
+    box-shadow: 3px 3px 4px black;
+}
+.col8 button
+{
+    padding: 15px;
+    font-weight: 600;
+}
+
+footer
+{
+    margin-top: 150px;
+}
+
+.col8 ul li a{
+
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    text-shadow: 3px 3px 8px black;
+}
+.col8 ul li
+{
+    text-align: center;
+    text-shadow: 3px 3px 8px black;
+}
+
+
+@media only screen and (min-width:400px)and (max-width:1024px) 
+{
+
+    body{
+      
+        background-image: url(./images/texture-990067_1920.jpg);
+        width: 100%;
+        height: 100%;
+        background-position: center;
+      
+   
+       
+    }
+    .page2
+    {
+        width: 100%;
+        height: 510px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+       margin-top: 50px;
+       background-image:none;
+     background-size: cover;
+     box-shadow:none;
+     margin-bottom:800px;
+     padding-right: 20px;
+
+     margin-top: 500px;
+    }
+    .page2 img{
+
+        width: 200px;
+        height: 200px;
+    }
+    .page2 h1{
+    
+        font-size:18px;
+        position: relative;
+        left: 2px;
+        margin-top: 10px;
+    }
+    .page2 .col8
+    {
+        margin: 50px;
+        text-align: center;
+        
+    }
+    .col8{
+
+        background-color:none;
+        width: 300px;
+        height: 400px;
+    
+    }
+
+    .col8 button:hover{
+    
+    background-color: rgb(177, 46, 46);
+    color: white;
+    }
+    
+    .col8  img
+    {
+        transition: 0.5s;
+        border-radius: 20px;
+    }
+    
+    .col8 img:hover
+    {
+        transform: scale(0.9);
+        box-shadow: 3px 3px 4px black;
+    }
+    .col8 button
+    {
+        padding: 10px;
+    }
+
+    footer
+    {
+        margin-top: -300px;
+    }
+
+}

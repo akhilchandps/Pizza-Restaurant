@@ -1,0 +1,1270 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro:wght@700&family=Anton&family=Bebas+Neue&family=Bitter:wght@200&family=Black+Ops+One&family=DM+Sans:opsz,wght@9..40,500&family=DM+Serif+Display&family=Dhurjati&family=Dosis:wght@200&family=Exo+2:wght@500;700&family=Exo:wght@100&family=Hedvig+Letters+Sans&family=Heebo:wght@100&family=IBM+Plex+Serif:wght@300&family=Josefin+Sans:wght@300;500&family=Kaushan+Script&family=Merriweather:ital,wght@0,300;1,300&family=Noto+Sans:wght@500&family=Open+Sans:wght@300;400&family=Oswald&family=PT+Serif:ital@1&family=Passion+One&family=Playfair+Display&family=Poppins:wght@200&family=Rethink+Sans&family=Roboto+Condensed:wght@200&family=Sarabun:wght@100&family=Shadows+Into+Light&family=Teko:wght@300&family=Vina+Sans&display=swap');
+
+  @import url('https://fonts.googleapis.com/css2?family=Nothing+You+Could+Do&display=swap');
+
+  @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&family=Nothing+You+Could+Do&display=swap');
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&family=Nothing+You+Could+Do&family=Poppins:wght@200&display=swap');
+
+  @import url('https://fonts.googleapis.com/css2?family=Cookie&family=Kaushan+Script&family=Lobster&family=Oxygen:wght@300&display=swap');
+
+  @import url('https://fonts.googleapis.com/css2?family=Cookie&family=Kaushan+Script&family=Lobster&family=Oleo+Script&family=Oxygen:wght@300&family=Satisfy&display=swap');
+
+  @import url('https://fonts.googleapis.com/css2?family=Cookie&family=Kaushan+Script&family=Lobster&family=Nunito:wght@200&family=Oleo+Script&family=Oxygen:wght@300&family=Satisfy&display=swap');
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    color: #ffffff;
+}
+
+body
+{
+    background-image: url(./images/blackbody.jpg);
+    width: 100%;
+    height:100%;
+}
+
+.carousel-item 
+{
+    background-image: url(./images/Black\ White\ Simple\ Opening\ Banner.jpg);
+    width: 100%;
+    height: 700px;
+    background-size: cover;
+}
+.carousel-item ul li button
+{
+    padding: 15px;
+    position: relative;
+    left: 90px;
+}
+.carousel-item ul li button:hover
+{
+    background-color:#1f1f1f;
+    color: azure;
+    
+}
+
+.carousel-item ul{
+    list-style: none;
+    position: relative;
+    top: 70px;
+    left: 40px;
+}
+.carousel-item ul li h3{
+
+    font-family: Nothing You Could Do;
+    font-weight: 500;
+    font-size: 50px;
+}
+.carousel-item ul li h5
+{
+    font-family: Poppins;
+   
+}
+
+
+.carousel-item ul li h2
+{
+   font-family: Josefin Sans;
+   font-size: 60px;
+}
+
+.carousel-item .page2 ul
+{
+    position: absolute;
+    top: 38%;
+    color: white;
+    left: 45%;
+}
+.carousel-item .divee img
+{
+    filter: brightness(40%);
+}
+.carousel-item .page3 ul
+{
+    position: absolute;
+    top: 26%;
+    color: white;
+    left: 34%;
+    text-shadow:3px 3px 8px black;
+}
+/* #section1 */
+#navbarNav ul 
+{
+   margin-left: auto;
+   margin-right: 70px;
+   font-size: 16px;
+   margin-top: 30px;
+    
+   
+}
+#navaa
+{
+    font-family: Oleo Script;
+    font-size: 30px;
+}
+#navaa i
+{
+    color:#e75d26;
+}
+#navbarNav ul li
+{
+    padding-left: 40px;
+    padding-right: 30px;
+}
+.navbar
+{
+    background-color: black;
+}
+#navbarNav ul li a
+{
+    color: white;
+    transition: 0.3s;
+    font-weight: 600;
+    font-family: Oxygen;
+}
+#navbarNav ul li a:hover
+{
+    color:#ffffff;
+    background-color: rgb(184, 56, 56);
+    border-radius: 5px;
+    transform: translate(0,-9px);
+  
+} 
+
+
+
+/* section2 */
+
+.list
+{
+    background-color: black;
+    height: 150px;
+}
+.list ul
+{
+    color: white;
+    list-style: none;
+}
+.list
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.list ul li i
+{
+    position: relative;
+    right: 20px;
+    font-size: 23px;
+}
+.list #we
+{
+    padding-left: 20px;
+}
+
+.list #wd i{
+    padding-left: 20px;
+}
+.list .wr
+
+{
+    background-color: brown;
+    height: 150px;
+    width: 500px;
+    margin-top: 16px;
+    position: relative;
+    left: 46px;
+}
+.list .wr #wd i
+{
+    padding-top: 50px;
+    transition: 0.3s;
+}
+.list .wr #wd i:hover
+{
+   transform: scale(1.1);
+}
+
+/* section3 */
+.para 
+{
+   display: flex;
+   background-color: black;
+   color: rgb(255, 255, 255);
+}
+.para img{
+    width: 700px;
+    height: 390px;
+    object-fit: cover;
+}
+.para h1
+{
+    font-size: 30px;
+}
+.para .p1
+{
+    margin-top: 30px;
+    margin-left: 20px;
+}
+.para .p1 p{
+
+    font-family: Nunito;
+    font-size: 19px;
+    font-weight: 400;
+}
+
+/* section4 */
+.home3
+{
+    background-image: url(https://media.istockphoto.com/id/1278086601/vector/light-yellow-pizza-pattern-on-red-background-for-pizzeria-restaurant.jpg?s=612x612&w=0&k=20&c=r0x5FNugTZf2GoadAPI8FCz7ZMi0qOQakQ4JaCKG9dw=);
+    width: 100%;
+    height: 500px;
+}
+.home3 h1
+{
+    color: white;
+    text-align: center;
+}
+.home3 .div ul{
+    list-style: none;
+    padding-left: 150px;
+}
+
+.home3 .div ul li i
+{
+    width: 100px;
+    height: 100px;
+    background-color:rgb(214, 157, 51);
+    font-size: 60px;
+    text-align: center;
+    padding-top: 20px;
+    margin-left: 40px;
+    transition: 0.2s;
+    color: white;
+    box-shadow: 3px 3px 6px black;
+   
+}
+.home3 .div
+{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.home3 .div h4,p{
+    padding-top: 10px;
+    color: white;
+    font-weight: 500;
+
+}
+.home3 .div
+{
+  position: relative;
+  top: 90px;
+}
+.home3 h3
+{
+    font-family: poppins;
+    font-weight: 600;
+    text-shadow: 3px 3px 8px black;
+}
+.home3 h3
+{
+    text-align: center;
+    font-size: 19px;
+    color: beige;
+}
+.home3 h1,h3
+{
+  padding-top: 30px;
+}
+
+.home3 .div ul li i:hover
+{
+    transform: rotate(45deg);
+    color: white;
+}
+
+
+/* #section5 */
+.head2 h1
+{
+   text-align: center;
+   font-family: Josefin Sans;
+}
+.head2 h1,h4{
+    margin-top: 50px;
+}
+.head2 h4{
+    font-size: 19px;
+    color: white;
+    text-align: center;
+}
+.head2 h1
+{
+    color: white;
+}
+
+
+/* #section6 */
+
+.row 
+{
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+   
+}
+.row .col1 img{
+    width: 100%;
+    height: 100%;
+  object-fit: cover;
+  transition: 0.6s;
+}
+
+.row .col1 img:hover
+{
+    transform: scale(1.2);
+}
+.list2 ul li a{
+
+    color: white;
+    text-decoration: none;
+  
+}
+.list2 ul li button:hover a
+{
+    color: black;
+}
+.list2 
+{
+    color: antiquewhite;
+    width: 100%;
+    height: 300px;
+    background-image: url(./images/black-370118_1920.png);
+    padding-top: 35px;
+   
+
+}
+
+.list2 ul{
+    list-style: none;
+}
+.head3
+{
+    display: flex;
+    margin-top: 50px;
+    margin-left: 40px;
+}
+.list2 ul p{
+
+    font-size: 15px;
+    /* padding-right: 126px; */
+}
+.list2 ul button
+{
+    font-weight: 600;
+    padding: 10px;
+}
+
+
+/* section6.1 */
+.non{
+   display: flex;
+   justify-content: center;
+   background-image: url(https://media.istockphoto.com/id/1415858611/photo/wood-texture-for-furniture-or-interior-design-dark-wood-background.jpg?s=612x612&w=0&k=20&c=iv3XAFFktw9Mg8jllR1lqHnY1E0-KSk4fCbJvX-zQWA=);
+   width: 100%;
+   height: 500px;
+}
+.middile
+{
+  width: 300px;
+  height: 300px;
+  overflow: hidden;
+  position: relative;
+  top: 30px;
+  margin: 80px;
+  box-shadow: 3px 3px 8px black;
+ 
+
+}
+ .middile img{
+
+    width: 100%;
+    height:100%;
+   object-fit: cover;
+} 
+.contents 
+{
+    height: 80px;
+     background-color:rgba(0,0,0,0.6);
+     position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    color: white;
+    transform: translateX();
+    transition: 0.7s;
+}
+.contents ul
+{
+    margin-top: 10px;
+}
+.contents ul h1{
+    font-size: 30px;
+padding-top:20px;
+padding-bottom: 10px;
+}
+.contents ul 
+{
+    list-style: none;
+}
+.non .contents ul li button{
+
+    position: relative;
+    left:50px;
+    top: 5px;
+}
+.contents ul h6
+{
+    font-family: poppins;
+    text-align: justify;
+}
+.contents ul h6,button
+{
+    opacity: 0;
+    
+}
+.middile:hover .contents{
+ 
+    height: 300px;
+
+ 
+}
+.middile:hover h6,button
+{ 
+    
+    opacity: 1;
+}
+.contents ul  button
+{
+    font-weight: 600;
+   padding-left: 20px;
+   padding-right: 20px;
+   padding-bottom: 10px;
+   padding-top: 10px;
+}
+.contents ul  button:hover
+{
+    color: white;
+    background-color: rgb(0, 0, 0);
+}
+.midd h1
+{
+    margin: 40px;
+    color: white;
+    text-align: center;
+}
+.contents ul #veg
+{
+    padding-left: 20px;
+}
+
+/* section7 */
+
+.menu
+{
+    margin-top: 50px;
+}
+.menu .menu1
+{
+    color: white;
+    margin-top: 30px;
+    text-align: center;
+ 
+}
+.menu .image img
+{
+  width: 100px;
+  height: 80px;
+  margin-left: 30px;
+  border-radius: 70%;
+  box-shadow: 3px 3px 8px rgb(0, 0, 0);
+
+}
+.menu .image ul{
+    list-style: none;
+    color: white;
+    font-size: 15px;
+}
+.menu .image  
+{
+   display: flex;
+   margin-top: 70px;
+ padding-left: 170px;
+}
+
+/* #section8 */
+.last .blog
+{
+  text-align: center;
+  color: azure;
+  margin-top: 80px;
+}
+.last .blogimg 
+{
+  display: flex;
+  margin: 40px;
+  margin-top: 80px;
+ position: relative;
+  left: 30px; 
+}
+
+.last .blogimg
+{
+    width: 300px;
+    height: 250px;
+    color: white;
+   
+}
+.last .blogimg ul img
+{
+    width: 330px;
+    height: 300px;
+    box-shadow: 3px 3px 8px black;
+    transition: 0.5s;
+    border-radius: 20px;
+    object-fit: cover;
+    transition: 0.5s;
+   
+}
+.last .blogimg ul img:hover
+{
+    transform: scale(0.9);
+}
+.last .blogimg ul
+{
+    text-align: center;
+   padding: 20px;
+   list-style: none;
+}
+.last .blogimg ul li a
+{
+    text-decoration: none;
+    color: rgb(218, 129, 27);
+    font-family: josefin sans;
+    font-size: 20px;
+}
+.last .blogimg ul li a:hover
+{
+    color: beige;
+}
+.last .blogimg ul li
+{
+    padding: 5px;
+    font-family: poppins;
+}
+
+
+/* section9 */
+.mail
+{
+
+    color: #ffffff;
+    display: flex;
+    margin-top: 450px;
+}
+.mail .imgf img
+{
+    width: 780px;
+    height: 750px;
+    object-fit: cover;
+    
+}
+.mail .input
+{
+    background-color: #000000;
+    width: 850px;
+    height: 750px;
+    padding-left: 50px;
+    padding-right: 180px;
+}
+.mail .input input,label
+{
+    padding: 10px;
+}
+.mail .input h1
+
+{
+   padding-top: 60px;
+}
+.mail .input button
+{
+    font-weight: 600;
+   font-size: 18px;
+   padding: 15px;
+}
+footer{
+    margin-top: 150px;
+}
+/* ************************************************************************************************************************** */
+@media only screen and (min-width:400px)and (max-width:1024px) {
+  
+    body{
+       
+        width: 100%;
+        
+    }
+    .carousel-item 
+    {
+        background-image: url(./images/Black\ White\ Simple\ Opening\ Banner.jpg);
+        width: 400px;
+        height: 300px;
+       background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    .carousel-item .page2 img
+    {
+        width: 400px;
+        height: 300px;
+    }
+    .carousel-item .divee  img
+    {
+        width: 400px;
+        height: 300px;
+    }
+
+    .carousel-item button{
+
+        font-size: 13px;
+    }
+    .carousel-item ul li button
+    {
+        padding: 10px;
+        position: relative;
+        left: 90px;
+    }
+    .carousel-item ul li button:hover
+    {
+        background-color:#FAC564;
+        color: azure;
+        
+    }
+    
+    .carousel-item ul{
+        list-style: none;
+        position: relative;
+        top: 70px;
+        left: 40px;
+    }
+    .carousel-item ul li h3{
+    
+        font-family: Nothing You Could Do;
+        font-weight: 500;
+        font-size: 30px;
+    }
+    .carousel-item ul li h5
+    {
+        font-family: Poppins;
+        font-size: 15px;
+       
+    }
+    
+    
+    .carousel-item ul li h2
+    {
+       font-family: Josefin Sans;
+       font-size: 20px;
+    }
+    
+    .carousel-item .page2 ul
+    {
+        position: absolute;
+        top: 38%;
+        color: white;
+        left: 45%;
+    }
+    .carousel-item .divee img
+    {
+        filter: brightness(40%);
+    }
+    .carousel-item .page3 ul
+    {
+        position: absolute;
+        top: 26%;
+        color: white;
+        left: 34%;
+        text-shadow:3px 3px 8px black;
+    }
+
+    /* #section1 */
+#navbarNav ul 
+{
+   margin-left: auto;
+   margin-right: 70px;
+   font-size: 16px;
+   margin-top: 30px;
+    
+   
+}
+/* .navbar
+{
+    height: 90px;
+} */
+.container-fluid button{
+
+   background-color: rgb(124, 117, 117);
+    font-size: 20px;
+}
+
+#navbarNav ul li
+{
+    padding-left: 40px;
+    padding-right: 30px;
+}
+.navbar
+{
+    background-color: black;
+    
+}
+#navbarNav ul li a
+{
+    color: white;
+    text-align: center;
+    padding: 15px;
+    width: 80px;
+    position: relative;
+    left: 95px;
+}
+#navbarNav ul li a:hover
+{
+    color: orange;
+}
+/* section2 */
+
+.list
+{
+    background-color: black;
+    height: 550px;
+}
+.list ul
+{
+    color: white;
+    list-style: none;
+    margin-top: 40px;
+}
+.list
+{
+   flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.list ul li i
+{
+    position: relative;
+    right: 20px;
+    font-size: 22px;
+}
+.list #we
+{
+    padding-left: 20px;
+    font-size: 15px;
+    text-align: center;
+    position: relative;
+}
+#ule
+{
+    position: relative;
+    right: 20px;
+}
+#uld
+{
+    position: relative;
+    right: 20px;
+}
+.list #wd i{
+    padding-left: 30px;
+    position: relative;
+    right:30px;
+    top: 10px;
+}
+.list #wd
+{
+    text-align: center;
+}
+.list .wr
+
+{
+    background-color: brown;
+    height: 150px;
+    width: 100%;
+    margin-top: 16px;
+    position: relative;
+    left: 1px;
+    top: 23px;
+}
+.list .wr #wd i
+{
+    padding-top: 50px;
+    transition: 0.3s;
+}
+.list .wr #wd i:hover
+{
+   transform: scale(1.1);
+}
+
+
+    /* section3 */
+.para 
+{
+  flex-direction: column;
+   background-color: black;
+   color: rgb(255, 255, 255);
+}
+.para img{
+    width: 100%;
+    height: 250px;
+}
+.para h1
+{
+    font-size: 30px;
+}
+.para .p1
+{
+    margin-top: 30px;
+    margin-left: 20px;
+}
+.para .p1 p{
+
+    font-family: Nunito;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+   
+/* section4 */
+.home3
+{
+    background-image: url(https://media.istockphoto.com/id/1278086601/vector/light-yellow-pizza-pattern-on-red-background-for-pizzeria-restaurant.jpg?s=612x612&w=0&k=20&c=r0x5FNugTZf2GoadAPI8FCz7ZMi0qOQakQ4JaCKG9dw=);
+    width: 100%;
+    height: 500px;
+}
+.home3 h1
+{
+    color: white;
+    text-align: center;
+    
+}
+.home3 .div ul{
+    list-style: none;
+    padding-left: 10px;
+}
+
+.home3 .div ul li i
+{
+    width: 60px;
+    height: 60px;
+    background-color:rgb(214, 157, 51);
+    font-size: 25px;
+    text-align: center;
+    padding-top: 20px;
+    margin-left: 2px;
+    transition: 0.2s;
+    color: white;
+    box-shadow: 3px 3px 6px black;
+   
+}
+.home3 .div
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.home3 .div h4,p{
+    padding-top: 10px;
+    color: white;
+    font-weight: 500;
+    font-size: 16px;
+}
+.home3 .div
+{
+  position: relative;
+  top: 20px;
+}
+.home3 h3
+{
+    text-align: center;
+    font-size: 16px;
+    color: beige;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.home3 h1,h3
+{
+  padding-top: 20px;
+}
+
+.home3 .div ul li i:hover
+{
+    transform: rotate(45deg);
+    color: white;
+}
+
+/* #section5 */
+.head2 h1
+{
+   text-align: center;
+   font-family: Josefin Sans;
+}
+.head2 h1,h4{
+    margin-top: 50px;
+}
+.head2 h4{
+    font-size: 16px;
+    padding: 10px;
+    color: white;
+    text-align: center;
+}
+.head2 h1
+{
+    color: white;
+}
+
+/* * #section6 */ */
+
+
+.row 
+{
+    width: 250px;
+    height: 250px;
+    overflow:none;
+    box-shadow: 3px 3px 5px black;
+   
+}
+.row .col1 img{
+    width: 250px;
+    height: 250px;
+  object-fit: cover;
+  transition: 0.6s;
+}
+
+.row .col1 img:hover
+{
+    transform: scale(1.2);
+}
+
+.list2 
+{
+    color: antiquewhite;
+    width: 240px;
+    height: 100%;
+    background-image: url(./images/black-370118_1920.png);
+    padding-top: 20px;
+    position: relative;
+    bottom: 50px;
+    box-shadow: 3px 3px 8px black;
+    text-align: center;
+}
+
+.list2 ul{
+    list-style: none;
+}
+.head3
+{
+    flex-direction: column;
+     justify-content: space-around;
+     align-items: center;
+     text-align: center;
+     position: relative;
+     right: 25px;
+
+}
+.list2 ul p,h2,button{
+
+    font-size: 15px;
+    position: relative;
+    right:15px;
+
+}
+/* section6.1 */
+.non{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url(https://media.istockphoto.com/id/1415858611/photo/wood-texture-for-furniture-or-interior-design-dark-wood-background.jpg?s=612x612&w=0&k=20&c=iv3XAFFktw9Mg8jllR1lqHnY1E0-KSk4fCbJvX-zQWA=);
+    width: 100%;
+    height: 900px;
+   align-items: center;
+ }
+ .non .contents ul li button{
+
+    position: relative;
+    left:23px;
+    top: 5px;
+}
+ .middile
+ {
+   width: 200px;
+   height: 200px;
+   overflow: hidden;
+   margin:10px;
+   margin-bottom: 70px;
+   box-shadow: 3px 3px 8px black;
+   border-radius: 20px;
+  
+ 
+ }
+  .middile img{
+ 
+     width: 200px;
+     height:300px;
+    object-fit: cover;
+ } 
+ .contents 
+ {
+     height: 80px;
+      background-color:rgba(0,0,0,0.6);
+      position: absolute;
+     bottom: 0;
+     left: 0;
+     right: 0;
+     color: white;
+     transform: translateX();
+     transition: 0.7s;
+     width: 200px;
+ }
+ .contents ul
+ {
+     margin-top: 10px;
+ }
+ .contents ul h1{
+     font-size: 20px;
+ padding-top:20px;
+ padding-bottom: 10px;
+ }
+ .contents ul 
+ {
+     list-style: none;
+ }
+ 
+ .contents ul h6
+ {
+     font-family: poppins;
+     text-align: justify;
+     font-size: 14px;
+    display: none;
+     
+ }
+ .contents ul h6,button
+ {
+     opacity: 0;
+ }
+ .middile:hover .contents{
+  
+     height: 300px;
+ 
+  
+ }
+ .middile:hover h6,button
+ { 
+     
+     opacity: 1;
+ }
+ .contents ul  button
+ {
+     font-weight: 600;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    font-size: 14px;
+    margin-top: 50px;
+
+ }
+ .contents ul  button:hover
+ {
+     color: white;
+     background-color: brown;
+ }
+ .midd h1
+ {
+     margin: 40px;
+     color: white;
+     text-align: center;
+ }
+ 
+
+/* section7 */
+
+.menu
+{
+    margin-top: 50px;
+}
+.menu h5{
+ 
+    font-size: 18px;
+    padding: 10px;
+}
+.menu .menu1
+{
+    color: white;
+    margin-top: 30px;
+    text-align: center;
+ 
+}
+.menu .image img
+{
+  width: 100px;
+  height: 80px;
+  margin-left: 30px;
+  border-radius: 70%;
+  box-shadow: 3px 3px 8px rgb(0, 0, 0);
+
+}
+.menu .image ul{
+    list-style: none;
+    color: white;
+    font-size: 15px;
+    padding-right: 10px;
+    padding-top: 10px;
+}
+
+.menu .image  
+{
+  flex-direction: column;
+   margin-top: 50px;
+ padding-left: 20px;
+}
+
+/* #section8 */
+
+.last .blog
+{
+  text-align: center;
+  color: azure;
+  margin-top: 50px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.last .blogimg 
+{
+  flex-direction: column;
+ display: flex;
+  /* margin: 40px; */
+
+}
+.last .blogimg 
+{
+  display: flex;
+  margin: 40px;
+ position: relative;
+  left: 1px; 
+}
+.last .blogimg  {
+    margin: auto;
+    width: 50%;
+
+    padding: 5px;
+    margin-top: 20px;
+  }
+.last .blogimg
+{
+    width: 300px;
+    height: 250px;
+    color: white;
+   
+}
+.last .blogimg ul img
+{
+    width: 250px;
+    height: 250px;
+    box-shadow: 3px 3px 8px black;
+    transition: 0.5s;
+    border-radius: 20px;
+    object-fit: cover;
+    transition: 0.5s;
+}
+.last .blogimg ul img:hover
+{
+    transform: scale(0.9);
+}
+.last .blogimg ul
+{
+    text-align: center;
+   padding: 20px;
+   list-style: none;
+}
+.last .blogimg ul li a
+{
+    text-decoration: none;
+    color: rgb(218, 129, 27);
+    font-family: josefin sans;
+    font-size: 20px;
+}
+.last .blogimg ul li a:hover
+{
+    color: beige;
+}
+.last .blogimg ul li
+{
+    padding: 5px;
+    font-family: poppins;
+}
+
+/* section9 */
+.mail
+{
+
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    margin-top: 1350px;
+}
+.mail .imgf img
+{
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    
+}
+.mail .input
+{
+    background-color: #000000;
+    width: 100%;
+    height: 750px;
+    padding-left: 60px;
+    text-align: center;
+    padding-right: 40px;
+}
+.mail .input input,label
+{
+    padding: 10px;
+}
+.input label
+{
+    font-weight: 600;
+}
+.mail .input h1
+
+{
+   padding-top: 60px;
+}
+.mail .input button
+{
+    font-weight: 600;
+   font-size: 14px;
+   padding: 15px;
+}
+
+}
+

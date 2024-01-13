@@ -210,8 +210,6 @@ html,body{
 .para img{
     width: 700px;
     height: 390px;
-    position:relative
-    top:30px
     object-fit: cover;
 }
 .para h1

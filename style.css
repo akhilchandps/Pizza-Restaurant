@@ -1279,3 +1279,662 @@ footer{
 
 }
 
+
+@media only screen and (max-width:1024px)   {
+  
+       
+      body{
+    background-image: url(./images/blackbody.jpg);
+    width: 100%;
+    height:100%;
+        
+    }
+    .carousel-item 
+    {
+        background-image: url(./images/Black\ White\ Simple\ Opening\ Banner.jpg);
+        width: 400px;
+        height: 300px;
+       background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    .carousel-item .page2 img
+    {
+        width: 400px;
+        height: 300px;
+    }
+    .carousel-item .divee  img
+    {
+        width: 400px;
+        height: 300px;
+    }
+
+    .carousel-item button{
+
+        font-size: 13px;
+    }
+    .carousel-item ul li button
+    {
+        padding: 10px;
+        position: relative;
+        left: 90px;
+    }
+    .carousel-item ul li button:hover
+    {
+        background-color:#1f1f1f;
+        color: azure;
+        
+    }
+    
+    .carousel-item ul{
+        list-style: none;
+        position: relative;
+        top: 70px;
+        left: 40px;
+    }
+    .carousel-item ul li h3{
+    
+        font-family: Nothing You Could Do;
+        font-weight: 500;
+        font-size: 30px;
+    }
+    .carousel-item ul li h5
+    {
+        font-family: Poppins;
+        font-size: 15px;
+       
+    }
+    
+    
+    .carousel-item ul li h2
+    {
+       font-family: Josefin Sans;
+       font-size: 20px;
+    }
+    
+    .carousel-item .page2 ul
+    {
+        position: absolute;
+        top: 38%;
+        color: white;
+        left: 45%;
+    }
+    .carousel-item .divee img
+    {
+        filter: brightness(40%);
+    }
+    .carousel-item .page3 ul
+    {
+        position: absolute;
+        top: 26%;
+        color: white;
+        left: 34%;
+        text-shadow:3px 3px 8px black;
+    }
+
+    /* #section1 */
+#navbarNav ul 
+{
+   margin-left: auto;
+   margin-right: 70px;
+   font-size: 16px;
+   margin-top: 30px;
+    
+   
+}
+/* .navbar
+{
+    height: 90px;
+} */
+.container-fluid button{
+
+   background-color: rgb(124, 117, 117);
+    font-size: 20px;
+}
+
+#navbarNav ul li
+{
+    padding-left: 40px;
+    padding-right: 30px;
+}
+.navbar
+{
+    background-color: black;
+    
+}
+#navbarNav ul li a
+{
+    color: white;
+    text-align: center;
+    padding: 15px;
+    width: 80px;
+    position: relative;
+    left: 95px;
+}
+#navbarNav ul li a:hover
+{
+    color: orange;
+}
+/* section2 */
+
+.list
+{
+    background-color: black;
+    height: 550px;
+}
+.list ul
+{
+    color: white;
+    list-style: none;
+    margin-top: 40px;
+}
+.list
+{
+   flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.list ul li i
+{
+    position: relative;
+    right: 20px;
+    font-size: 22px;
+}
+.list #we
+{
+    padding-left: 20px;
+    font-size: 15px;
+    text-align: center;
+    position: relative;
+}
+#ule
+{
+    position: relative;
+    right: 20px;
+}
+#uld
+{
+    position: relative;
+    right: 20px;
+}
+.list #wd i{
+    padding-left: 30px;
+    position: relative;
+    right:30px;
+    top: 10px;
+}
+.list #wd
+{
+    text-align: center;
+}
+.list .wr
+
+{
+    background-color: brown;
+    height: 150px;
+    width: 100%;
+    margin-top: 16px;
+    position: relative;
+    left: 1px;
+    top: 23px;
+}
+.list .wr #wd i
+{
+    padding-top: 50px;
+    transition: 0.3s;
+}
+.list .wr #wd i:hover
+{
+   transform: scale(1.1);
+}
+
+
+    /* section3 */
+.para 
+{
+  flex-direction: column;
+   background-color: black;
+   color: rgb(255, 255, 255);
+}
+.para img{
+    width: 100%;
+    height: 250px;
+}
+.para h1
+{
+    font-size: 30px;
+}
+.para .p1
+{
+    margin-top: 30px;
+    margin-left: 20px;
+}
+.para .p1 p{
+
+    font-family: Nunito;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+   
+/* section4 */
+.home3
+{
+    background-image: url(https://media.istockphoto.com/id/1278086601/vector/light-yellow-pizza-pattern-on-red-background-for-pizzeria-restaurant.jpg?s=612x612&w=0&k=20&c=r0x5FNugTZf2GoadAPI8FCz7ZMi0qOQakQ4JaCKG9dw=);
+    width: 100%;
+    height: 500px;
+}
+.home3 h1
+{
+    color: white;
+    text-align: center;
+    
+}
+.home3 .div ul{
+    list-style: none;
+    padding-left: 10px;
+}
+
+.home3 .div ul li i
+{
+    width: 60px;
+    height: 60px;
+    background-color:rgb(214, 157, 51);
+    font-size: 25px;
+    text-align: center;
+    padding-top: 20px;
+    margin-left: 2px;
+    transition: 0.2s;
+    color: white;
+    box-shadow: 3px 3px 6px black;
+   
+}
+.home3 .div
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.home3 .div h4,p{
+    padding-top: 10px;
+    color: white;
+    font-weight: 500;
+    font-size: 16px;
+}
+.home3 .div
+{
+  position: relative;
+  top: 20px;
+}
+.home3 h3
+{
+    text-align: center;
+    font-size: 16px;
+    color: beige;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.home3 h1,h3
+{
+  padding-top: 20px;
+}
+
+.home3 .div ul li i:hover
+{
+    transform: rotate(45deg);
+    color: white;
+}
+
+/* #section5 */
+.head2 h1
+{
+   text-align: center;
+   font-family: Josefin Sans;
+}
+.head2 h1,h4{
+    margin-top: 50px;
+}
+.head2 h4{
+    font-size: 16px;
+    padding: 10px;
+    color: white;
+    text-align: center;
+}
+.head2 h1
+{
+    color: white;
+}
+
+/* * #section6 */ */
+
+
+.row 
+{
+    width: 250px;
+    height: 250px;
+    overflow:none;
+    box-shadow: 3px 3px 5px black;
+   
+}
+.row .col1 img{
+    width: 250px;
+    height: 250px;
+  object-fit: cover;
+  transition: 0.6s;
+}
+
+.row .col1 img:hover
+{
+    transform: scale(1.2);
+}
+
+.list2 
+{
+    color: antiquewhite;
+    width: 240px;
+    height: 100%;
+    background-image: url(./images/black-370118_1920.png);
+    padding-top: 20px;
+    position: relative;
+    bottom: 50px;
+    box-shadow: 3px 3px 8px black;
+    text-align: center;
+}
+
+.list2 ul{
+    list-style: none;
+}
+.head3
+{
+    flex-direction: column;
+     justify-content: space-around;
+     align-items: center;
+     text-align: center;
+     position: relative;
+     right: 25px;
+
+}
+.list2 ul p,h2,button{
+
+    font-size: 15px;
+    position: relative;
+    right:15px;
+
+}
+/* section6.1 */
+.non{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url(https://media.istockphoto.com/id/1415858611/photo/wood-texture-for-furniture-or-interior-design-dark-wood-background.jpg?s=612x612&w=0&k=20&c=iv3XAFFktw9Mg8jllR1lqHnY1E0-KSk4fCbJvX-zQWA=);
+    width: 100%;
+    height: 900px;
+   align-items: center;
+ }
+ .non .contents ul li button{
+
+    position: relative;
+    left:23px;
+    top: 5px;
+}
+ .middile
+ {
+   width: 200px;
+   height: 200px;
+   overflow: hidden;
+   margin:10px;
+   margin-bottom: 70px;
+   box-shadow: 3px 3px 8px black;
+   border-radius: 20px;
+  
+ 
+ }
+  .middile img{
+ 
+     width: 200px;
+     height:300px;
+    object-fit: cover;
+ } 
+ .contents 
+ {
+     height: 80px;
+      background-color:rgba(0,0,0,0.6);
+      position: absolute;
+     bottom: 0;
+     left: 0;
+     right: 0;
+     color: white;
+     transform: translateX();
+     transition: 0.7s;
+     width: 200px;
+ }
+ .contents ul
+ {
+     margin-top: 10px;
+ }
+ .contents ul h1{
+     font-size: 20px;
+ padding-top:20px;
+ padding-bottom: 10px;
+ }
+ .contents ul 
+ {
+     list-style: none;
+ }
+ 
+ .contents ul h6
+ {
+     font-family: poppins;
+     text-align: justify;
+     font-size: 14px;
+    display: none;
+     
+ }
+ .contents ul h6,button
+ {
+     opacity: 0;
+ }
+ .middile:hover .contents{
+  
+     height: 300px;
+ 
+  
+ }
+ .middile:hover h6,button
+ { 
+     
+     opacity: 1;
+ }
+ .contents ul  button
+ {
+     font-weight: 600;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    font-size: 14px;
+    margin-top: 50px;
+
+ }
+ .contents ul  button:hover
+ {
+     color: white;
+     background-color: brown;
+ }
+ .midd h1
+ {
+     margin: 40px;
+     color: white;
+     text-align: center;
+ }
+ 
+
+/* section7 */
+
+.menu
+{
+    margin-top: 50px;
+}
+.menu h5{
+ 
+    font-size: 18px;
+    padding: 10px;
+}
+.menu .menu1
+{
+    color: white;
+    margin-top: 30px;
+    text-align: center;
+ 
+}
+.menu .image img
+{
+  width: 100px;
+  height: 80px;
+  margin-left: 30px;
+  border-radius: 70%;
+  box-shadow: 3px 3px 8px rgb(0, 0, 0);
+
+}
+.menu .image ul{
+    list-style: none;
+    color: white;
+    font-size: 15px;
+    padding-right: 10px;
+    padding-top: 10px;
+}
+
+.menu .image  
+{
+  flex-direction: column;
+   margin-top: 50px;
+ padding-left: 20px;
+}
+
+/* #section8 */
+
+.last .blog
+{
+  text-align: center;
+  color: azure;
+  margin-top: 50px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.last .blogimg 
+{
+  flex-direction: column;
+ display: flex;
+  /* margin: 40px; */
+
+}
+.last .blogimg 
+{
+  display: flex;
+  margin: 40px;
+ position: relative;
+  left: 1px; 
+  right:50px
+}
+.last .blogimg  {
+    margin: auto;
+    width: 50%;
+
+    padding: 5px;
+    margin-top: 20px;
+  }
+.last .blogimg
+{
+    width: 300px;
+    height: 250px;
+    color: white;
+   
+}
+.last .blogimg ul img
+{
+    width: 250px;
+    height: 250px;
+    box-shadow: 3px 3px 8px black;
+    transition: 0.5s;
+    border-radius: 20px;
+    object-fit: cover;
+    transition: 0.5s;
+}
+.last .blogimg ul img:hover
+{
+    transform: scale(0.9);
+}
+.last .blogimg ul
+{
+    text-align: center;
+   padding: 20px;
+   list-style: none;
+}
+.last .blogimg ul li a
+{
+    text-decoration: none;
+    color: rgb(218, 129, 27);
+    font-family: josefin sans;
+    font-size: 20px;
+}
+.last .blogimg ul li a:hover
+{
+    color: beige;
+}
+.last .blogimg ul li
+{
+    padding: 5px;
+    font-family: poppins;
+}
+
+/* section9 */
+.mail
+{
+
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    margin-top: 1350px;
+}
+.mail .imgf img
+{
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    
+}
+.mail .input
+{
+    background-color: #000000;
+    width: 100%;
+    height: 750px;
+    padding-left: 60px;
+    text-align: center;
+    padding-right: 40px;
+}
+.mail .input input,label
+{
+    padding: 10px;
+}
+.input label
+{
+    font-weight: 600;
+}
+.mail .input h1
+
+{
+   padding-top: 60px;
+}
+.mail .input button
+{
+    font-weight: 600;
+   font-size: 14px;
+   padding: 15px;
+}
+
+}
+
+
+

@@ -15,13 +15,13 @@ body
     width: 400px;
     height:100%;
 }
-/* html,body{
+ html,body{
   width: 100%;
   height: 100%;
   margin: 0px;
   padding: 0px;
   overflow-x: hidden;
-} */
+} 
 .page2
 {
     width: 100%;

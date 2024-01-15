@@ -114,10 +114,7 @@ footer
 
 @media only  screen and (max-width:400px)
 {
-body
-  { 
-    width:100%
-  }
+
     body
     {
         background-image: url(./images/black-370118_1920.png);
@@ -214,6 +211,7 @@ body
     footer
     {
         margin-top: 40px;
+      width:400px
      
 
     }
